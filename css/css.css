@@ -1,0 +1,45 @@
+
+* {
+ box-sizing: border-box;
+}
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+body {
+  /*font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  color: #232333;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 17px;
+}
+
+
+#content {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 880px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+#content a{
+  color: #c4353c;
+  font-weight: bold;
+  /*text-decoration: none;*/
+}
+
+#content a:hover{
+  text-decoration: none;
+  background: #F8F8FF;
+}

@@ -17,7 +17,8 @@ body {
 body {
   /*font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   color: #232333;
-  font-family: 'Roboto Mono', monospace;
+  /*font-family: 'Roboto Mono', monospace;*/
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
 }
 
@@ -30,6 +31,8 @@ body {
   padding-top: 10px;
   padding-right: 20px;
   padding-left: 20px;
+  font-size: 110%;
+  font-weight: 500;
 }
 
 
@@ -45,9 +48,12 @@ body {
 }
 
 h1 {
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: 700;
 }
 
-h3 {
-  margin-bottom: 10px;
+h2,h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
